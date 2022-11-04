@@ -39,7 +39,7 @@ Ivehicle = cv2.imread(img_path)
 Dmax = 608
 Dmin = 288
 
-#TODO:Sửa lại giá giá trị của biển số sao cho khớp với biển số vuông
+#TODO:Sửa lại giá giá trị của biển số sao cho khớp với biển số vuông hehehehe
 # Lấy tỷ lệ giữa W và H của ảnh và tìm ra chiều nhỏ nhất
 ratio = float(max(Ivehicle.shape[:2])) / min(Ivehicle.shape[:2])
 side = int(ratio * Dmin)
